@@ -21,8 +21,8 @@ func main() {
 
 	memVirtualMemory, _ := mem.VirtualMemory()
 	cpuInfos, _ := cpu.Info()
-	cpuCountsPhysical, _ := cpu.Counts(false)
-	cpuCountsLogical, _ := cpu.Counts(true)
+	//cpuCountsPhysical, _ := cpu.Counts(false)
+	//cpuCountsLogical, _ := cpu.Counts(true)
 	diskPartitions, _ := disk.Partitions(false)
 
 	fmt.Printf("\n-RAM INFO-\n")
